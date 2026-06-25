@@ -1,0 +1,67 @@
+13C GAME BOOSTER PRO v1.0 - SETUP GUIDE
+For Redmi 13C / 12C / 10C / POCO C55
+By: ashokgekler56366
+
+==================================
+PART 1: INSTALL TERMUX - 2 MIN
+==================================
+1. DO NOT use Play Store Termux. It's dead.
+2. Open Chrome → Search "Termux F-Droid"
+3. Download from f-droid.org → Install APK
+4. Open Termux. Wait for "Installing..." to finish.
+
+==================================
+PART 2: SETUP PYTHON - 1 MIN
+==================================
+1. Copy this command. Paste in Termux:
+   pkg update -y && pkg install python -y
+2. Wait till it says "Done". Type:
+   python --version
+   If you see "Python 3.11", you're good.
+
+==================================
+PART 3: RUN THE BOOSTER - 30 SEC
+==================================
+1. In Termux, type: cd /sdcard/Download
+2. Then type: ls
+   You should see 13c_game_mode.py here
+3. Run the script:
+   python 13c_game_mode.py
+4. Wait for "13C GAME MODE ACTIVE"
+
+==================================
+PART 4: GAME SETTINGS - 1 MIN
+==================================
+1. Open BGMI/Free Fire
+2. Settings → Graphics → 
+   Set to "Smooth" + "Ultra/Extreme FPS"
+3. DO NOT use "HD" or "HDR". Helio G85 hates it.
+
+==================================
+FAQ - READ BEFORE DMing ME
+==================================
+Q: "Permission denied" error?
+A: Run: termux-setup-storage
+   Then type Y and allow. Retry Step 3.
+
+Q: Phone gets hot?
+A: Normal. Performance Mode = More power.
+   Play in AC room or remove case.
+
+Q: No FPS boost?
+A: 1. Reboot phone. 2. Run script again. 
+   3. Close all apps before gaming.
+   This gives 30-40 FPS stable, not 90 FPS.
+
+Q: Will this ban my game account?
+A: No. This changes phone settings, not game files.
+   100% safe. Used by 200+ people.
+
+==================================
+SUPPORT
+==================================
+Stuck? WhatsApp me screenshot: +91 XXXXX XXXXX
+Reply within 12hr. One-time purchase = Lifetime help.
+
+Thank you for supporting indie devs.
+Now go win that Chicken Dinner.
