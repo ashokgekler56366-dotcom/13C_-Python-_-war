@@ -15,7 +15,6 @@ def enable_13c_mode():
 
     print("[3] Setting MIUI to Performance mode...")
     os.system("settings put system speed_mode 1") # MIUI specific
-
     print("[4] Disabling animations...")
     os.system("settings put global window_animation_scale 0")
     os.system("settings put global transition_animation_scale 0")
